@@ -1,0 +1,123 @@
+
+#sub1_1 h2 {
+    font-size: 24px;
+}
+#sub1_1 h3 {
+    font-size: 30px;
+}
+#sub1_1 h4 {
+    font-size: 24px;
+
+}
+
+#main aside {
+   
+    width: 250px;
+    margin-right: auto;
+}
+#main article {
+    width: 900px;
+}
+#main aside h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #898989;
+    border-top: 10px solid #509591; 
+    color: #fff;}
+
+#main aside .subMenu > li {
+    background: #d7d7d7;
+}
+#main aside .subMenu > li > a:hover {
+    background: #939a9e;
+    color: #fff;
+}
+  
+#main aside .subMenu > li > a {
+    color: #898989;
+    background: #fff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 1em;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+#main aside .subMenu > li.active > a {
+    background: #939a9e;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+/*본문article*/
+#main article .breadCrumb {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 2rem;
+}
+article .textLayout {
+    display: flex;
+    padding: 40px 30px;
+    background: #f9f9f9;
+    margin-top: auto;
+
+}
+article .textLayout .text{
+    margin-right: auto;
+}
+
+#sub1_1 article h4{
+    margin-bottom:  20px;
+    line-height: 1.5em;
+}
+#sub1_1 article p{
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+#sub1_1 article p:last-child {
+    margin-bottom: 0;
+}
+#sub1_1 article p strong{
+    font-size: large;
+    line-height: 1.5em;
+}
+#sub1_1 article .bottomTextLayout{
+    padding: 40px 30px;
+    margin-top: 30px;
+}
+#sub1_1 article .bottomTextLayout h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+#sub1_1 article .bottomTextLayout ol {
+    list-style-position: inside;
+    margin-bottom: 1em;
+    line-height: 28px;
+}
+
+#sub5_1 article .location{
+    margin-top: 40px;
+}
+#sub5_1 article .location ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+#sub5_1 article .location li { 
+    width: 50%;
+    margin-bottom: 1em;
+}
+.fa {
+    color: #507595;
+}
+
+
+
+
+
+
+
+
+  
+
+
